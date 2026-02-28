@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .topdivline {
+            border-top: 3px solid rgb(104, 79, 64);
+            margin-bottom: 10px;
+        }
+
+        .hero {
+            height: 60vh;
+            background: url('./assets/abouthand.jpg') center/cover no-repeat;
+            position: sticky;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(53, 51, 51, 0.6);
+            top: 0;
+            left: 0;
+        }
+
+        .hero h1 {
+            position: relative;
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff8f8;
+            letter-spacing: 2px;
+        }
+
+        .text {
+            margin-top: 30px;
+        }
+
+        .section-divider {
+            width: 150px;
+            height: 4px;
+            background-color: rgb(247, 245, 245);
+            margin: 0 auto 15px;
+        }
+
+
+
+        .bottomdivline {
+            border-top: 3px solid rgb(104, 79, 64);
+            margin-top: 10px;
+        }
+
+
+        .divider1 {
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(to right, #ccc 30%, orange 30%, orange 70%, #ccc 70%);
+            border-radius: 5px;
+        }
+
+        .about-sec {
+            display: flex;
+            padding: 0 100px;
+        }
+
+        .about-right-img {
+            height: 405px;
+            width: 620px;
+            /* margin-left: 100px; */
+        }
+
+        .highlights-section {
+            padding: 60px 0;
+            background: #ffffff;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+
+        .highlight-text {
+            font-size: 17px;
+            font-weight: 250;
+            color: #010101;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        .highlight-item i {
+            color: #f4a300;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        
+        .quote-section {
+            height: 500px;
+            background: linear-gradient(135deg, #f5c400, #ebbf0d);
+            padding: 100px 20px;
+            color: #000;
+            margin-top: 70px;
+        }
+
+        .quote-text {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        .author {
+            margin-top: 60px;
+            text-align: right;
+        }
+
+        .author-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .author-title {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="Navbar">
+        <ul class="navLists">
+            <li class="navItem ">
+                <a href="./home.html" class="navLink">Home</a>
+            </li>
+            <span class="divider">|</span>
+
+            <li class="navItem ">
+                <a href="#" class="navLink">About</a>
+            </li>
+
+
+        </ul>
+        <div class="logoDiv">
+            <img src="./assets/logo.png" />
+        </div>
+        <ul class="navLists">
+            <li class="navItem">
+                <a href="./franchies.html" class="navLink ">Franchise</a>
+            </li>
+            <span class="divider">|</span>
+
+            <li class="navItem">
+                <a href="./contact.html" class="navLink">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="topdivline"></div>
+    <section class="hero">
+        <div class="container">
+            <div class="margin-90"></div>
+            <h1 class="text">About Us</h1>
+            <div class="section-divider"></div>
+        </div>
+    </section>
+    <div class="bottomdivline"></div><br><br>
+
+    <section>
+        <h4 class="text-center">About Us</h4><br>
+        <div class="divider1 mx-auto"></div><br />
+    </section><br />
+
+    <section>
+        <div class="about-sec">
+            <div class="col-md-6 text-start">
+                <img src="./assets/Owner.jpeg" alt="Logo" class="about-right-img">
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold">THE STORY OF OUR SUCCESS</h5><br>
+                <p class="text-secondary">
+                    New Poona Bakery is a heritage brand that serves a wide range of sweet and savory
+                    delicacies. Right from fresh wholesome breads to rich velvety cakes, distinctively flaky
+                    cream rolls, buttery cookies and our star product – the Vegetable pattice; the list is endless!
+                </p>
+                <br>
+                <p class="text-secondary">What started as a single outlet in Pune city, has now spread to 100+ outlets
+                    in and around Pune.</p>
+                <br /><br />
+                <div class="row">
+
+                    <!-- Left Column -->
+                    <div class="col-md-6">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check"></i>
+                            <h6 class="highlight-text">50+ YEARS</h6>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check "></i>
+                            <h6 class="highlight-text">100+ OUTLETS</h6>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-6">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check "></i>
+                            <h6 class="highlight-text">200+ PRODUCT</h6>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check "></i>
+                            <h6 class="highlight-text">ALWAYS FRESH</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+   <section class="quote-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <p class="quote-text">
+                    “Honestly, bakery or the hospitality industry never appealed to me. 
+                    I was hundred percent sure I would never be working there. Today, I’m glad 
+                    my father took the decision of pushing me into it. I wanted to be a doctor 
+                    but fell short of 1 mark. It was my mother who pushed and encouraged me 
+                    to take up the family business as a challenge.
+                </p>
+
+                <p class="quote-text mt-4">
+                    In the late 80’s, Pune’s business owners took pride in not having any branches. 
+                    We were one of the first ones to make a change. We started with 3 owned branches 
+                    and today we have 100 outlets including franchisees.”
+                </p>
+
+                <div class="author">
+                    <div class="author-name">- Mr. Bhushan R Giramkar</div>
+                    <div class="author-title">Owner, New Poona Bakery</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="main-footer mt-5">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-9">
+                    <h6 class="fw-bold mb-3">NEW POONA BAKERY</h6>
+                    <p class="text-light">
+                        New Poona Bakery is a heritage brand that serves a wide range sweet and savory delicacies. Right
+                        from fresh wholesome bread to rich velvety cakes,
+                        distinctively flaky cream rolls, buttery cookies and our star product – the Vegetable pattice;
+                        the list is endless! What started as a single outlet in Pune
+                        city, has now spread to 100+ outlets in and around Pune.
+                    </p>
+                </div>
+                <div class="col-md-3 text-end">
+                    <img src="./assets/logo.png" alt="Logo" class="footer-logo">
+                </div>
+            </div>
+
+
+
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <h6 class="footer-heading">Follow Us</h6>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-heading">Contact Us</h6>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="contact-link">+91 90110 89471 <br> +91 90110 89472</div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <small class="text-light">672/C/2, Budhwar Peth, Jogeshwari
+                            <br> Chowk, Pune - 2.</small><br>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="contact-link">feedback@newpoonabakery.com</div>
+
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <div class="contact-link">www.newpoonabakery.com</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-heading">Factory</h6>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="contact-link">+91 90110 89471 <br> +91 90110 89472</div>
+                    </div>
+                    <div class="contact-item ">
+                        <small class="text-light d-block">
+                            <i class="fa-solid fa-location-arrow"></i>
+                            Sr. No. 114/1/2, Bhumkar Vasti, Near <br> Balaji College, IT Park, Pune - 57.
+                        </small>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-heading">Working Time</h6>
+                    <div class="mb-1">Monday - Friday: 10:00 am - 08:00 pm</div>
+                    <div>Saturday - Sunday: 10:00 am - 01:00 pm</div>
+                </div>
+            </div>
+
+            <div class="text-center copyright-bar">
+                2018 All rights reserved, Powered by <span style="color: rgb(237, 191, 6);">The Placet</span>. </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
